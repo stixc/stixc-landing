@@ -38,6 +38,23 @@ body {
   transition: background 0.0s;
 }
 
+.announcement {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #276ea1;
+  border-radius: 0px;
+}
+
+.announcement a {
+  color: #8cb6ec;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.announcement a:hover {
+  text-decoration: underline;
+}
+
 .links a:hover {
   background: #555555;
 }
