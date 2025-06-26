@@ -38,6 +38,37 @@ body {
   transition: background 0.0s;
 }
 
+.announcement {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #1e67a0;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.warning-emojis {
+  font-size: 24px;
+  color: #dc3545;
+  flex-shrink: 0;
+}
+
+.announcement-text {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.announcement a {
+  color: #27cdff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.announcement a:hover {
+  text-decoration: underline;
+}
+
 .links a:hover {
   background: #555555;
 }
